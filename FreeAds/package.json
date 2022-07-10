@@ -1,6 +1,9 @@
 {
+    "homepage": "http://miyuna-projects.github.io/free-ads",
     "private": true,
     "scripts": {
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build",
         "dev": "npm run development",
         "development": "mix",
         "watch": "mix watch",
